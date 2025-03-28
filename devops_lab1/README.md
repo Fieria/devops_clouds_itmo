@@ -187,10 +187,6 @@ _При запросе по https:_
 ![image](https://github.com/user-attachments/assets/6b078c22-7d57-4098-ab71-7d993aab9f6d)
 
 
-## Виртуальные хосты
-
-
-
 ## Создание двух тестовых папок под проекты
 
 1. С помощью VS Code создадим две папки в каталоге `"C:/Users/79156/` - `devOpsProject1` и `devOpsProject2`. В каждой папке создадим файлы `index.html`, `index.css` и `javascript.js`:
