@@ -71,6 +71,8 @@ COPY index.html /usr/share/nginx/html/
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
+* Хотя в моем примере хостовая ОС Windows, а гостевая ОС (ОС контейнера) Linux, проблем все равно не возникнет, потому что Docker автоматически запускает контейнер в виртуальной Linux-среде (через WSL2)
+  
 результат для плохого докерфайла:
 
 ![image](https://github.com/user-attachments/assets/5dc69936-b99a-419b-9bc2-1c16f2fd5f33)
