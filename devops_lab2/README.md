@@ -81,5 +81,18 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ## За кадром: как построили образ, запустили контейнеры и проверили работу проекта
 
+1. В VS code открываем консолль и с помощью команды `cd` переходим в папку `devOpsLab2`, в которой расположен наш Dockerfile
+2. Используем следующую команду, чтобы построить образ:
+   ```
+   docker build -t devopslab2 .
+   ```
+с помощью `-t` мы присваиваем имя `devopslab2` нашему образу, а `.` указывает на то, что докер должен искать Dockerfile именно в том каталоге, в котором мы сейчас находимся
+
+![image](https://github.com/user-attachments/assets/7037b11d-6cdf-4d8b-9e46-9b11302ed5cd)
+
+![image](https://github.com/user-attachments/assets/c88af5f7-d2ab-4ae6-8fc0-b6626335fbe5)
+
+![image](https://github.com/user-attachments/assets/5c947096-addf-4b36-8f25-267b8396c2f6)
+
 ![image](https://github.com/user-attachments/assets/2487e239-d8f6-4a3c-9f53-45f42fd7c8ac)
 
