@@ -21,3 +21,7 @@
 
 ## Результат работы
 
+![лаба2](https://github.com/user-attachments/assets/f183cd24-1b58-481c-9866-40d84b28a4ea)
+
+## Вывод
+
